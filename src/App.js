@@ -1,13 +1,13 @@
+import Links from "./components/Links";
+import Profile from "./components/Profile";
 
 
 function App() {
   return (
     <div>
-      
+      <Profile />
 
-       {/*links section*/}
-       <link className="btn_zuri "></link>
-      {/*links section*/}
+     <Links />
     </div>
   );
 }
