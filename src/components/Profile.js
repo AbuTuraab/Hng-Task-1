@@ -1,3 +1,5 @@
+import myImage from "./linkedin.jpg"
+
 
 function Profile() {
     return(
@@ -8,8 +10,13 @@ function Profile() {
 
         </div>
       </div>
-      <ul class="text" id="twitter">@AbooTuraab</ul>
+      <div>
 
+      <img className='myimage' id='profile__img' src={myImage} alt="profile-pic" />
+
+      </div>
+      <ul class="text" id="twitter">@AbooTuraab</ul>
+      <ul class="text" id="slack" hidden>adenijialiyuolamilekan</ul>
        </>
     );
 }
