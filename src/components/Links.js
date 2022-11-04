@@ -5,13 +5,8 @@ function Links() {
     <div id="overlay">
     
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-     
-    </div>
-  </div>
-  <div class="panel panel-default">
+  
+<div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://training.zuri.team/" >
@@ -78,6 +73,15 @@ function Links() {
     </div>
   
   
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+     
+        <a role="button"  href="/contact" >
+          <div class="btn btn-danger btn-outline btn-lg"
+          id="contact">Contact Me</div>
+        </a>
+     </div>
+    </div>
   
    </div>
     </div>
