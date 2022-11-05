@@ -1,3 +1,5 @@
+import { Link} from "react-router-dom"
+
 function Links() {
     return(
          <>
@@ -76,10 +78,14 @@ function Links() {
     <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
      
-        <a role="button"  href="/contact" >
+   
+   
+   
+         <Link to={"/contact"} >
           <div class="btn btn-danger btn-outline btn-lg"
-          id="contact">Contact Me</div>
-        </a>
+          id="btn_zuri">Contact Me</div>
+        </Link>
+     
      </div>
     </div>
   
