@@ -72,11 +72,6 @@ function Contact() {
     <div class="status"></div>
 </div>
 
-</div>
-
-
-            
-        </div>
     )
 }
 
