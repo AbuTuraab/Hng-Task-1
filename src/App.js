@@ -1,5 +1,3 @@
-import Links from "./components/Links";
-import Profile from "./components/Profile";
 import Contact from "./Pages/Contact";
 import  {Routes, Route}  from "react-router-dom";
 import Homepage from "./Pages/HomePage";

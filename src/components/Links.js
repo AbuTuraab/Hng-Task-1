@@ -3,27 +3,27 @@ import { Link} from "react-router-dom"
 function Links() {
     return(
          <>
-  <div class="box">
+  <div className="box">
     <div id="overlay">
     
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   
-<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+<div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://training.zuri.team/" >
-          <div class="btn btn-danger btn-outline btn-lg"
+          <div className="btn btn-danger btn-outline btn-lg"
           id="btn_zuri">Zuri team</div>
         </a>
      </div>
     </div>
   
   
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+  <div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://books.zuri.team/" >
-          <div class="btn btn-danger btn-outline btn-lg"
+          <div className="btn btn-danger btn-outline btn-lg"
           id="books">Zuri Books</div>
         </a>
         <p>Are you an upcoming developer or product designer? if yes, I have
@@ -33,11 +33,11 @@ function Links() {
     </div>
   
   
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+  <div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://books.zuri.team/python-for-beginners?ref_id=adenijialiyuolamilekan" >
-          <div class="title btn btn-danger btn-outline btn-lg"
+          <div className="title btn btn-danger btn-outline btn-lg"
           id="book_python">Python Books</div>
         </a>
         <p>This is my book called python for beginners, I wrote this book
@@ -46,11 +46,11 @@ function Links() {
      </div>
     </div>
   
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+  <div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://background.zuri.team" >
-          <div class="title btn btn-danger btn-outline btn-lg"
+          <div className="title btn btn-danger btn-outline btn-lg"
           id="pitch">Background Check for Coders</div>
         </a>
         <p>Getting experienced coders for your project  has never gotten easier,
@@ -60,11 +60,11 @@ function Links() {
   
   
   
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+  <div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
         <a role="button"  href="https://books.zuri.team/" >
-          <div class="title btn btn-danger btn-outline btn-lg"
+          <div className="title btn btn-danger btn-outline btn-lg"
           id="book_design">Design Books</div>
         </a>
         <p>
@@ -75,14 +75,14 @@ function Links() {
     </div>
   
   
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+    <div className="panel panel-default">
+    <div className="panel-heading" role="tab" id="headingTwo">
      
    
    
    
          <Link to={"/contact"} >
-          <div class="btn btn-danger btn-outline btn-lg"
+          <div className="btn btn-danger btn-outline btn-lg"
           id="btn_zuri">Contact Me</div>
         </Link>
      

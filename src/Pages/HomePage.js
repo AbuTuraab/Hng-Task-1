@@ -4,16 +4,13 @@ import Links from "../components/Links"
 
 const Homepage = ()=>{
 return(
-
     <div>
 
 <Profile />
 
 <Links />
     </div>
-
-
-)
+);
     
 } 
 

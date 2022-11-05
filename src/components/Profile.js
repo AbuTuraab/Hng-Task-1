@@ -5,8 +5,8 @@ function Profile() {
     return(
        <>
       
-       <div class="image">
-        <div class="trick">
+       <div className="image">
+        <div className="trick">
 
         </div>
       </div>
@@ -15,8 +15,8 @@ function Profile() {
       <img className='myimage' id='profile__img' src={myImage} alt="profile-pic" />
 
       </div>
-      <ul class="text" id="twitter">@AbooTuraab</ul>
-      <ul class="text" id="slack" hidden>adenijialiyuolamilekan</ul>
+      <ul className="text" id="twitter">@AbooTuraab</ul>
+      <ul className="text" id="slack" hidden>adenijialiyuolamilekan</ul>
        </>
     );
 }
