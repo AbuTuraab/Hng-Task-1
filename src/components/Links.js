@@ -83,7 +83,7 @@ function Links() {
    
          <Link to={"/contact"} >
           <div className="btn btn-danger btn-outline btn-lg"
-          id="btn_zuri">Contact Me</div>
+          id="contact">Contact Me</div>
         </Link>
      
      </div>
